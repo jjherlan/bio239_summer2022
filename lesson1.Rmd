@@ -24,6 +24,53 @@ Scientists collected data on the density of herbivorous insects and the amount o
 
 **Oak tree experiment**
 
+Researchers wanted to compare the mean density of insects on caged trees versus uncaged trees to determine whether birds depressed the number of insects consuming tree leaves.
 
+While comparison of the different means describes the central tendencies of the data,
+ecologists often want to know if the data used to generate the mean have high or low variability.
+
+If the mean density of insects on leaves was 10 insects per square metero fleaf surface in both of the following sets of data, which group is more variable?
 
 </div>
+
+<div style = "margin-bottom:50px;">
+```{r bio239 line X, echo = FALSE}
+groupA <- c(10, 9, 11, 10, 8, 12, 9, 11, 8, 12)
+
+groupB <- c(10, 5, 15, 10, 6, 14, 5, 15, 7, 13)
+
+mean(groupA)
+
+mean(groupB)
+
+var(groupA)
+
+var(groupB)
+```
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
