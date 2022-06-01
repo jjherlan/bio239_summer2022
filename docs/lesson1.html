@@ -296,7 +296,7 @@ number of insects consuming tree leaves.</p>
 tendencies of the data, ecologists often want to know if the data used
 to generate the mean have high or low variability.</p>
 <p>If the mean density of insects on leaves was 10 insects per square
-metero fleaf surface in both of the following sets of data, which group
+meter of leaf surface in both of the following sets of data, which group
 is more variable?</p>
 </div>
 <div style="margin-bottom:50px;">
@@ -356,6 +356,26 @@ observed values and [<span class="math inline">\(E\)</span>(<span
 class="math inline">\(\chi\)</span>)]<span
 class="math inline">\(^2\)</span> is the square of the mean observed
 values.</p>
+</div>
+<div style="margin-bottom:50px;">
+<p>When we calculate the variance of the mean, the calculation is based
+on the assumption that we have measured every member of the population.
+In reality, we cannot measure every individual, but we can measure a
+<em>sample</em> of the entire population.</p>
+<p>In the oak tree experiment, the researchers did not measure all the
+insects on all the trees, but instead a sample of 10 groups of oak
+trees. When we measure a sample of the population, the variation in the
+data is called the <strong>sample variance</strong>. The sample variance
+is very similar to the <strong>variance of the mean</strong>, except we
+now account for how many samples of the populaton we measured (denoted
+as <span class="math inline">\(n\)</span>). The sample variance (denoted
+as <span class="math inline">\(s^2\)</span>) is calculated as:</p>
+<p><span class="math inline">\(s^2\)</span> = <span
+class="math inline">\(\frac{n}{n-1} * \sigma^2\)</span></p>
+<p>or</p>
+<p><span class="math inline">\(s^2\)</span> = <span
+class="math inline">\(\frac{n}{n-1} * E[\chi^2] -
+[E(\chi)]^2\)</span></p>
 </div>
 
 

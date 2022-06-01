@@ -29,7 +29,7 @@ Researchers wanted to compare the mean density of insects on caged trees versus 
 While comparison of the different means describes the central tendencies of the data,
 ecologists often want to know if the data used to generate the mean have high or low variability.
 
-If the mean density of insects on leaves was 10 insects per square metero fleaf surface in both of the following sets of data, which group is more variable?
+If the mean density of insects on leaves was 10 insects per square meter of leaf surface in both of the following sets of data, which group is more variable?
 
 </div>
 
