@@ -2,8 +2,28 @@
 title: "Wht Do We Calculate Means and Variances"
 ---
 
+<div style = "margin-bottom:75px;">
+
+</div>
+
 <div style = "margin-bottom:50px;">
 
 **Observations** Information, including *measurements*, that is collected from organisms of the environment, also known as *data*.
+
+**Data** are used to test *hypotheses*.
+
+In ecology, scientists often to know the **mean**, or average value, of the data collected from different experimental treatments or under different environmental conditions.  
+
+</div>
+
+<div style = "margin-bottom:50px;">
+
+**Example study** 
+
+Scientists collected data on the density of herbivorous insects and the amount of leaf tissue the herbivores consumed.
+
+**Oak tree experiment**
+
+
 
 </div>
