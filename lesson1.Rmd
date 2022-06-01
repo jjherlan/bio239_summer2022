@@ -49,10 +49,36 @@ var(groupB)
 ```
 </div>
 
+<div style = "margin-bottom:50px;">
 
+Although both groups have a mean of 10, observations on Group A have less variability than Group B.
 
+Given that each mean is calculated from a set of data that has either a narrow or wide range, 
+the variability describes how much the distributions of data overlap with each other. If two groups 
+have different means but the distributions of data overlap a great deal, such as the number of insects on 
+caged and uncaged trees, then we cannot be confident that the two groups are actually different from each other. 
 
+One way to measure the variability around the mean is to calculate the variance of the mean. 
+The **variance of the mean** is a measurement that indicates the spread of data around the mean of a population 
+when every member of the population is measured. Data points that are more widely spread around the mean will 
+have higher variance. 
 
+</div>
+
+<div style = "margin-bottom:50px;">
+
+Calculate the variance (denoted as $\sigma^2$) in a set of data:
+
+1. Square each observed value (denoted as $\chi$) and calculate the mean of these squared values (where *E* indicates that we are taking the mean of several values):
+
+$E$[$\chi^2$]
+
+One way to measure the variability around the mean is to calculate the variance of the mean. 
+The **variance of the mean** is a measurement that indicates the spread of data around the mean of a population 
+when every member of the population is measured. Data points that are more widely spread around the mean will 
+have higher variance. 
+
+</div>
 
 
 
