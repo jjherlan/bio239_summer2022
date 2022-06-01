@@ -1,0 +1,9 @@
+---
+title: "Wht Do We Calculate Means and Variances"
+---
+
+<div style = "margin-bottom:50px;">
+
+**Observations** Information
+
+</div>
