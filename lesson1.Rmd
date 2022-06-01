@@ -85,14 +85,16 @@ In words, $E$[$\chi^2$] is the mean of the squared observed values and [$E$($\ch
 
 When we calculate the variance of the mean, the calculation is based on the assumption that we have measured every member of the population. In reality, we cannot measure every individual, but we can measure a *sample* of the entire population.
 
-In the oak tree experiment, the researchers did not measure all the insects on all the trees, but instead a grpup=0 \
--ori+Q_WEiot    =-30
-24tk
-\#Q$%[itu j
-[564iuyt\]]%0YHI8U\yt g8i9</div>
+In the oak tree experiment, the researchers did not measure all the insects on all the trees, but instead a sample of 10 groups of oak trees.
+When we measure a sample of the population, the variation in the data is called the **sample variance**. The sample variance is very similar to the **variance of the mean**, except we now account for how many samples of the populaton we measured (denoted as $n$). The sample variance (denoted as $s^2$) is calculated as:
 
+$s^2$ = $\frac{n}{n-1} * \sigma^2$
 
+or 
 
+$s^2$ = $\frac{n}{n-1} * E[\chi^2] - [E(\chi)]^2$
+
+</div>
 
 
 
