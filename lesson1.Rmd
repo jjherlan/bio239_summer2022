@@ -96,13 +96,36 @@ $s^2$ = $\frac{n}{n-1} * E[\chi^2] - [E(\chi)]^2$
 
 </div>
 
+```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|Caged trees|Uncaged trees| 
+|---|:--:|
+| 8 | 4  |              
+| 6 | 3  |              
+| 7 | 2  |            
+| 9 | 4  |            
+| 5 | 2  |            
+"
+cat(tabl)
+```
+
+<div style = "margin-bottom:50px;">
+
+To calculate the sample variance for insects living on oak trees, consider the following set of observations on the abundance of of insects per leaf on caged and uncaged trees.
+
+</div>
 
 
+<div style = "margin-bottom:50px;">
 
+**In-class discussion questions**
 
+1. Using data from the five replicates of caged and uncaged trees, calculate the mean and sample variance of insect abundance.
 
+2. Given that the variance of the sample mean is based on every possible observation, whereas the sample variance 
+is based on a subset of all possible observations, how do the two estimates of variability compare as the number of samples becomes very large?
 
-
+</div>
 
 
 
