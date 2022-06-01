@@ -4,6 +4,6 @@ title: "Wht Do We Calculate Means and Variances"
 
 <div style = "margin-bottom:50px;">
 
-**Observations** Information
+**Observations** Information, including *measurements*, that is collected from organisms of the environment, also known as *data*.
 
 </div>
