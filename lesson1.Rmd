@@ -34,7 +34,7 @@ If the mean density of insects on leaves was 10 insects per square metero fleaf 
 </div>
 
 <div style = "margin-bottom:50px;">
-```{r bio239 line X, echo = FALSE}
+```{r bio239 line X, echo = TRUE}
 groupA <- c(10, 9, 11, 10, 8, 12, 9, 11, 8, 12)
 
 groupB <- c(10, 5, 15, 10, 6, 14, 5, 15, 7, 13)
