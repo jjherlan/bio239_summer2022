@@ -73,10 +73,11 @@ Calculate the variance (denoted as $\sigma^2$) in a set of data:
 
 $E$[$\chi^2$]
 
-One way to measure the variability around the mean is to calculate the variance of the mean. 
-The **variance of the mean** is a measurement that indicates the spread of data around the mean of a population 
-when every member of the population is measured. Data points that are more widely spread around the mean will 
-have higher variance. 
+2. From this mean, subtract the square of the mean observed value:
+
+$\sigma^2$ = $E$[$\chi^2$] - [$E$($\chi$)]$^2$
+
+In words, $E$[$\chi^2$] is the mean of the squared observed values and [$E$($\chi$)]$^2$ is the square of the mean observed values.
 
 </div>
 
