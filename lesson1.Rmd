@@ -1,5 +1,5 @@
 ---
-title: "Wht Do We Calculate Means and Variances"
+title: "Why Do We Calculate Means and Variances"
 ---
 
 <div style = "margin-bottom:75px;">
