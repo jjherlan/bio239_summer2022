@@ -9,3 +9,5 @@ navbar:
       href: about.html
     - text: "Lesson 1"
       href: lesson1.html
+    - text: "Lesson 2"
+      href: lesson2.html
