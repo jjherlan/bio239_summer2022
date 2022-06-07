@@ -2,13 +2,14 @@
 title: "Correlations"
 ---
 
-<div style = "margin-bottom:75px;">
-
+<div style = "margin-bottom:50px;">
 </div>
 
 <div style = "margin-bottom:50px;">
 
-A **correlation** is a statistical description of 
+A **correlation** is a statistical description of how one variable changes n relation to another variable.
+
+**Example** When tadpoles face
 
 </div>
 
