@@ -1,0 +1,18 @@
+---
+title: "Correlations"
+---
+
+<div style = "margin-bottom:50px;">
+</div>
+
+<div style = "margin-bottom:50px;">
+
+A **correlation** is a statistical description of how one variable changes n relation to another variable.
+
+**Example** When tadpoles face
+
+</div>
+
+```{r bio239 line 15, echo = FALSE, fig.cap = "Correlations. (a) When an increase in one variable is associated with a linear increase in another variable, it's a positive linear correlation. (b) When an increase in one variable is associated with a linear decrease in another variable, it's a negative linear correlation. (c) Positive and curvilinear. (d) Negative and curvilinear.", out.width = '75%'}
+knitr::include_graphics('eon8e_ch04_reg.jpg')
+```
