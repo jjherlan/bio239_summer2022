@@ -1,18 +1,55 @@
 ---
-title: "Correlations"
+title: "Frequency-Dependent Selection"
 ---
 
-<div style = "margin-bottom:50px;">
-</div>
-
-<div style = "margin-bottom:50px;">
-
-A **correlation** is a statistical description of how one variable changes n relation to another variable.
-
-**Example** When tadpoles face
-
-</div>
-
-```{r bio239 line 15, echo = FALSE, fig.cap = "Correlations. (a) When an increase in one variable is associated with a linear increase in another variable, it's a positive linear correlation. (b) When an increase in one variable is associated with a linear decrease in another variable, it's a negative linear correlation. (c) Positive and curvilinear. (d) Negative and curvilinear.", out.width = '75%'}
-knitr::include_graphics('eon8e_ch04_reg.jpg')
+```{r bio239 line 5, include = FALSE, echo = FALSE}
+require(tidyverse)
 ```
+
+<div style = "margin-bottom:25px;">
+From page 195 in the textbook
+</div>
+
+<div style = "margin-bottom:25px;">
+We can better understand frequency-dependent selection if we work through an example with real numbers. The American black vulture (*Coragyps atratus*) is a large bird that feeds on animal carcasses throughout much of North and South America. The female vulture typically lays two eggs in the nest.
+
+If a population is composed of five females and two males and we assume that a male can breed with more than one female, how many copies of genes, on average, does each male and female contribute to the next generation?
+</div>
+
+<div style = "margin-bottom:25px;">
+**Total number of eggs** = 10  
+**Average female fitness** = 10 female gene copies / 5 females = 2 gene copies / female  
+**Average male fitness** =   
+</div>
+
+<div style = "margin-bottom:25px;">
+1. Using the assumptions above, calculate the number of gene copies per male and per female under the following two scenarios:
+a. Four males and five females
+b. Six males and five females
+
+2. Given the four scenarios that we have explored, what sex ratio will be favored by natural selection over the long term?
+</div>
+
+<div style = "margin-bottom:25px;">
+Scatterplot in R
+</div>
+
+<div style = "margin-bottom:25px;">
+```{r lesson3 23, include = TRUE}
+scatter.df <- data.frame(
+  
+  x = c(1, 2, 3, 4),
+  
+  y = c(4, 3, 2, 1),
+          
+  number = c("a", "b", "c", "d")
+          
+)
+
+scatter.df
+
+scatter.gg <- ggplot(data = scatter.df, aes(x = x, y = y)) +
+  geom_point(aes(color = number), size = 3, alpha = 0.6)
+scatter.gg
+```
+</div>        
