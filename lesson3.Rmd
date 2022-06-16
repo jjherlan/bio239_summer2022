@@ -18,8 +18,8 @@ If a population is composed of five females and two males and we assume that a m
 
 <div style = "margin-bottom:25px;">
 **Total number of eggs** = 10  
-**Average female fitness** = 10 female gene copies / 5 females = 2 gene copies / female  
-**Average male fitness** =   
+**Average female fitness** = 10 female gene copies / 5 females = *2 gene copies per female*  
+**Average male fitness** =   10 male gene copies / 2 males = *5 gene copies per male*
 </div>
 
 <div style = "margin-bottom:25px;">
