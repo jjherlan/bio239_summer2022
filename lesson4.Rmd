@@ -1,0 +1,12 @@
+---
+title: "Frequency-Dependent Selection"
+---
+
+```{r bio239 line 5, include = FALSE, echo = FALSE}
+require(tidyverse)
+```
+
+<div style = "margin-bottom:25px;">
+From page **145** in the textbook
+</div>
+
