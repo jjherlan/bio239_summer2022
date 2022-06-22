@@ -16,13 +16,13 @@ Strength of Selection
 
 ```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
 tabl <- "
-|S|$h^2$| 
-|---|:--:|
-| 8 | 4  |              
-| 6 | 3  |              
-| 7 | 2  |            
-| 9 | 4  |            
-| 5 | 2  |            
+|S  |$h^2$|R| 
+|---|:--:|---|
+| 8 | 4  |   |           
+| 6 | 3  |   |          
+| 7 | 2  |   |        
+| 9 | 4  |   |        
+| 5 | 2  |   |        
 "
 cat(tabl)
 ```
