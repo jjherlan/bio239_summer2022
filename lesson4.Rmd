@@ -11,8 +11,15 @@ From page **145** in the textbook
 </div>
 
 <div style = "margin-bottom:25px;">
-Strength of Selection 
+**Strength of Selection, Heritability, and Response to Selection** 
 </div>
+
+<div style = "margin-bottom:25px;">
+Researchers often wish to know exactly how much selection will move the mean phenotype in a population. For example, if a plant breeder selects for larger tomato plants, she might want to know how much larger the next generation of tomatoes will be. Similarly, a government agency that regulates fishing might want to know if allowing the harvest of only the largest individuals might cause the population to evolve to be smaller in the next generation.
+</div>
+
+
+
 
 ```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
 tabl <- "
