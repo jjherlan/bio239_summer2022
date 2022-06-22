@@ -10,3 +10,19 @@ require(tidyverse)
 From page **145** in the textbook
 </div>
 
+<div style = "margin-bottom:25px;">
+Strength of Selection 
+</div>
+
+```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|S|$h^2$| 
+|---|:--:|
+| 8 | 4  |              
+| 6 | 3  |              
+| 7 | 2  |            
+| 9 | 4  |            
+| 5 | 2  |            
+"
+cat(tabl)
+```
