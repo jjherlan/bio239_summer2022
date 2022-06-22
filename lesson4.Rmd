@@ -18,8 +18,9 @@ From page **145** in the textbook
 Researchers often wish to know exactly how much selection will move the mean phenotype in a population. For example, if a plant breeder selects for larger tomato plants, she might want to know how much larger the next generation of tomatoes will be. Similarly, a government agency that regulates fishing might want to know if allowing the harvest of only the largest individuals might cause the population to evolve to be smaller in the next generation.
 </div>
 
-
-
+<div style = "margin-bottom:25px;">
+Let’s consider the case of directional selection in which one end of the phenotypic distribution is favored, such as when a plant breeder wants to grow larger tomatoes. If there is selection for more extreme phenotypes and the phenotype has a genetic basis, directional selection will cause the mean phenotype to become more extreme. Can we determine exactly how much the mean phenotype will change in the next generation? To answer this question, we need to know both the strength of selection on the phenotype and the heritability of the phenotype.
+</div>
 
 ```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
 tabl <- "
