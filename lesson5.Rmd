@@ -22,7 +22,38 @@ When data are collected from limited samples of a much larger distribution of da
 If data are normally distributed—that is, if they follow a bell-shaped curve like the one in the figure at the right—then about 68 percent of our data will fall within 1 standard deviation of the mean. Moreover, about 95 percent of our data will fall within 2 standard deviations of the mean and 99.7 percent of our data will fall within 3 standard deviations of the mean. For data that have a wide distribution of frequencies, as in the upper figure (a), the standard deviation value will be large. For data that have a narrow distribution of frequencies, as in the lower figure (b), the standard deviation value will be small.
 </div>
 
-```{r bio239 line 25, echo = FALSE, fig.cap = "The normal distribution. In a normal distribution, the most frequent observations fall near the mean and the least frequent observations occur farther away from the mean. The dark blue areas represent 1 standard deviation from the mean and account for 68.3 percent of all data. The medium and dark blue areas combined represent 2 standard deviations from the mean and account for 95.5 percent of all data. The light, medium, and dark blue areas combined represent 3 standard deviations from the mean and account for 99.7 percent of all data. The remaining small amount of data falls outside of 3 standard deviations. (a) Data that have a wide distribution have a large standard deviation. (b) Data that have a narrow distribution have a small standard deviation.", out.width = '75%'}
-knitr::include_graphics('ralyea9e_ch3.png')
+```{r bio239 line 25, echo = FALSE, fig.cap = "The normal distribution. In a normal distribution, the most frequent observations fall near the mean and the least frequent observations occur farther away from the mean. The dark blue areas represent 1 standard deviation from the mean and account for 68.3 percent of all data. The medium and dark blue areas combined represent 2 standard deviations from the mean and account for 95.5 percent of all data. The light, medium, and dark blue areas combined represent 3 standard deviations from the mean and account for 99.7 percent of all data. The remaining small amount of data falls outside of 3 standard deviations. (a) Data that have a wide distribution have a large standard deviation. (b) Data that have a narrow distribution have a small standard deviation.", out.width = '50%'}
+knitr::include_graphics('relyea9e_ch3.png')
 ```
+
+<div style = "margin-bottom:25px;">
+The sample standard deviation, denoted as $s$, is defined as the square root of the sample variance:
+</div>
+
+<div style = "margin-bottom:25px;">
+$s = \sqrt{s^{2}}$
+</div>
+
+<div style = "margin-bottom:25px;">
+The **standard error of the mean** is a useful measurement of variation in our data because it takes into account the number of replicates that were used to measure the standard deviation. The higher the number of replicates, the more precise the estimate we should have of the mean. As a result, an increase in the number of replicates in a given experiment produces a decrease in the standard error of the mean. As we will see in later chapters, the standard error of the mean is commonly used to determine whether two means are significantly different from each other.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
