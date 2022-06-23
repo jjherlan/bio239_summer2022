@@ -311,39 +311,255 @@ phenotype will change in the next generation? To answer this question,
 we need to know both the <em>strength of selection</em> on the phenotype
 and the <em>heritability</em> of the phenotype.</p>
 </div>
+<div style="margin-bottom:25px;">
+<p>The <strong>strength of selection</strong> is the difference between
+the mean of the phenotypic distribution before selection and the mean
+after selection, measured in units of standard deviations (see Chapter
+3). For example, imagine that we wanted to select for larger tomatoes.
+The phenotype (tomato mass) follows a normal distribution with a mean of
+100 g and a standard deviation of 10 g. Now imagine that we select the
+upper end of the distribution and use these individuals to breed the
+next generation of tomatoes. If this selected group has a mean of 115 g,
+our selected group has a mean that is 1.5 standard deviations away from
+the mean of the entire population. Thus, the strength of selection is
+1.5.</p>
+</div>
+<div style="margin-bottom:25px;">
+<p>We also know that phenotypes are the products of genes and the
+environment. If we wish to know how much the mean phenotype will change,
+we have to determine the proportion of the total phenotypic variation
+caused by genes, which is called the <strong>heritability</strong>.
+<strong>Heritability</strong> values can range between 0 and 1. If all
+of the phenotypic variation that we see in a normal distribution is due
+to the environment, the <strong>heritability</strong> is 0. If all of
+the phenotypic variation is due to genetic variation, the
+<strong>heritability</strong> is 1. By convention, the symbol for
+<strong>heritability</strong> is <span
+class="math inline">\(h^2\)</span>, although this notation can be
+confusing because nothing is being squared.</p>
+</div>
+<div style="margin-bottom:25px;">
+<p>One common way to quantify <strong>heritability</strong> for a given
+trait is to conduct linear regressions (see Chapter 2) between the mean
+trait values from pairs of parents versus the trait values of the
+offspring from those parents. The higher the regression coefficient
+(ranging from 0 to 1), the greater the <strong>heritability</strong> of
+the trait. The higher the <strong>heritability</strong> of the trait,
+the weaker the impact of environments on the trait.</p>
+</div>
+<div style="margin-bottom:25px;">
+<p>Using the concepts of strength of selection and
+<strong>heritability</strong>, we can build an equation that describes
+how much a population will respond to selection in the next generation.
+Because a population’s response to selection is a function of the
+strength of selection and the <strong>heritability</strong> of the
+phenotype,</p>
+</div>
+<div style="margin-bottom:25px;">
+<p><span class="math inline">\(R = S * h^2\)</span></p>
+</div>
+<div style="margin-bottom:25px;">
+<p>where R is the response to selection, <em>S</em> is the strength of
+selection, and is the <strong>heritability</strong>.</p>
+</div>
+<div style="margin-bottom:25px;">
+<p>Using our tomato example, we can calculate how much larger the
+tomatoes should be in the next generation. If we select parents that are
+1.5 standard deviations above the population mean and if the
+<strong>heritability</strong> is 0.33, then</p>
+</div>
+<div style="margin-bottom:25px;">
+<p><span class="math inline">\(R = 1.5 * 0.33 = 0.5\)</span></p>
+</div>
+<div style="margin-bottom:25px;">
+<p>which means that the mean phenotype of the next generation of
+tomatoes will be 0.5 standard deviations — or 5 g — greater than that of
+the parent’s generation.</p>
+</div>
+<div style="margin-bottom:25px;">
+<p><strong>In-class (group) Questions</strong></p>
+</div>
+<div style="margin-bottom:25px;">
+<ol style="list-style-type: decimal">
+<li>Given the following values for the strength of selection and
+heritability on tomato mass, calculate the expected response to
+selection in units of standard deviations and grams.</li>
+</ol>
+</div>
+<div style="margin-bottom:25px;">
+<ol start="2" style="list-style-type: decimal">
+<li>Based on your calculations, how is the response to selection
+affected by the strength of selection and heritability?</li>
+</ol>
+</div>
 <table>
 <thead>
 <tr class="header">
-<th>S</th>
+<th align="center">S</th>
 <th align="center"><span class="math inline">\(h^2\)</span></th>
-<th>R</th>
+<th align="center">R</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>8</td>
+<td align="center">8</td>
 <td align="center">4</td>
-<td></td>
+<td align="center"></td>
 </tr>
 <tr class="even">
-<td>6</td>
+<td align="center">6</td>
 <td align="center">3</td>
-<td></td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
-<td>7</td>
+<td align="center">7</td>
 <td align="center">2</td>
-<td></td>
+<td align="center"></td>
 </tr>
 <tr class="even">
-<td>9</td>
+<td align="center">9</td>
 <td align="center">4</td>
-<td></td>
+<td align="center"></td>
 </tr>
 <tr class="odd">
-<td>5</td>
+<td align="center">5</td>
 <td align="center">2</td>
-<td></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<div style="margin-bottom:25px;">
+<p><strong>Natural Selection of Finch Beaks</strong></p>
+</div>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Beak size(mm)</th>
+<th align="center">Frequency before selection</th>
+<th align="center">Frequency after selection</th>
+<th align="center"><span class="math inline">\(R\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">10.00</td>
+<td align="center">0.00</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">10.20</td>
+<td align="center">0.00</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">10.40</td>
+<td align="center">0.02</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">10.60</td>
+<td align="center">0.04</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">10.80</td>
+<td align="center">0.08</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">11.00</td>
+<td align="center">0.16</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">11.20</td>
+<td align="center">0.20</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">11.40</td>
+<td align="center">0.20</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">11.60</td>
+<td align="center">0.16</td>
+<td align="center">0.02</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">11.80</td>
+<td align="center">0.08</td>
+<td align="center">0.04</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">12.00</td>
+<td align="center">0.04</td>
+<td align="center">0.08</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">12.20</td>
+<td align="center">0.02</td>
+<td align="center">0.16</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">12.40</td>
+<td align="center">0.00</td>
+<td align="center">0.20</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">12.60</td>
+<td align="center">0.00</td>
+<td align="center">0.20</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">12.80</td>
+<td align="center">0.00</td>
+<td align="center">0.16</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">13.00</td>
+<td align="center">0.00</td>
+<td align="center">0.08</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">13.20</td>
+<td align="center">0.00</td>
+<td align="center">0.04</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">13.40</td>
+<td align="center">0.00</td>
+<td align="center">0.02</td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center">13.60</td>
+<td align="center">0.00</td>
+<td align="center">0.00</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="center">13.80</td>
+<td align="center">0.00</td>
+<td align="center">0.00</td>
+<td align="center"></td>
 </tr>
 </tbody>
 </table>

@@ -22,15 +22,95 @@ Researchers often wish to know exactly how much selection will move the mean phe
 Let’s consider the case of **directional selection** in which one end of the phenotypic distribution is favored, such as when a plant breeder wants to grow larger tomatoes. If there is selection for more extreme phenotypes and the phenotype has a genetic basis, **directional selection** will cause the mean phenotype to become more extreme. Can we determine exactly how much the mean phenotype will change in the next generation? To answer this question, we need to know both the *strength of selection* on the phenotype and the *heritability* of the phenotype.
 </div>
 
-```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+<div style = "margin-bottom:25px;">
+The **strength of selection** is the difference between the mean of the phenotypic distribution before selection and the mean after selection, measured in units of standard deviations (see Chapter 3). For example, imagine that we wanted to select for larger tomatoes. The phenotype (tomato mass) follows a normal distribution with a mean of 100 g and a standard deviation of 10 g. Now imagine that we select the upper end of the distribution and use these individuals to breed the next generation of tomatoes. If this selected group has a mean of 115 g, our selected group has a mean that is 1.5 standard deviations away from the mean of the entire population. Thus, the strength of selection is 1.5.
+</div>
+
+<div style = "margin-bottom:25px;">
+We also know that phenotypes are the products of genes and the environment. If we wish to know how much the mean phenotype will change, we have to determine the proportion of the total phenotypic variation caused by genes, which is called the **heritability**. **Heritability** values can range between 0 and 1. If all of the phenotypic variation that we see in a normal distribution is due to the environment, the **heritability** is 0. If all of the phenotypic variation is due to genetic variation, the **heritability** is 1. By convention, the symbol for **heritability** is $h^2$, although this notation can be confusing because nothing is being squared.
+</div>
+
+<div style = "margin-bottom:25px;">
+One common way to quantify **heritability** for a given trait is to conduct linear regressions (see Chapter 2) between the mean trait values from pairs of parents versus the trait values of the offspring from those parents. The higher the regression coefficient (ranging from 0 to 1), the greater the **heritability** of the trait. The higher the **heritability** of the trait, the weaker the impact of environments on the trait.
+</div>
+
+<div style = "margin-bottom:25px;">
+Using the concepts of strength of selection and **heritability**, we can build an equation that describes how much a population will respond to selection in the next generation. Because a population’s response to selection is a function of the strength of selection and the **heritability** of the phenotype,
+</div>
+
+<div style = "margin-bottom:25px;">
+$R = S * h^2$
+</div>
+
+<div style = "margin-bottom:25px;">
+where R is the response to selection, *S* is the strength of selection, and  is the **heritability**.
+</div>
+
+<div style = "margin-bottom:25px;">
+Using our tomato example, we can calculate how much larger the tomatoes should be in the next generation. If we select parents that are 1.5 standard deviations above the population mean and if the **heritability** is 0.33, then
+</div>
+
+<div style = "margin-bottom:25px;">
+$R = 1.5 * 0.33 = 0.5$
+</div>
+
+<div style = "margin-bottom:25px;">
+which means that the mean phenotype of the next generation of tomatoes will be 0.5 standard deviations — or 5 g — greater than that of the parent’s generation.
+</div>
+
+<div style = "margin-bottom:25px;">
+**In-class (group) Questions**
+</div>
+
+<div style = "margin-bottom:25px;">
+1. Given the following values for the strength of selection and heritability on tomato mass, calculate the expected response to selection in units of standard deviations and grams.
+</div>
+
+<div style = "margin-bottom:25px;">
+2. Based on your calculations, how is the response to selection affected by the strength of selection and heritability?
+</div>
+
+```{r table1 line 73, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
 tabl <- "
 |S  |$h^2$|R| 
-|---|:--:|---|
-| 8 | 4  |   |           
-| 6 | 3  |   |          
-| 7 | 2  |   |        
-| 9 | 4  |   |        
-| 5 | 2  |   |        
+|:-:|:-:|:-:|
+| 8 | 4 |   |           
+| 6 | 3 |   |          
+| 7 | 2 |   |        
+| 9 | 4 |   |        
+| 5 | 2 |   |        
+"
+cat(tabl)
+```
+
+<div style = "margin-bottom:25px;">
+**Natural Selection of Finch Beaks**
+</div>
+
+```{r table1 line 90, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|Beak size(mm)|Frequency before selection|Frequency after selection|$R$| 
+|:-----:|:----:|:----:|:---:|
+| 10.00 | 0.00 | 0.00 |     |           
+| 10.20 | 0.00 | 0.00 |     |          
+| 10.40 | 0.02 | 0.00 |     |        
+| 10.60 | 0.04 | 0.00 |     |        
+| 10.80 | 0.08 | 0.00 |     | 
+| 11.00 | 0.16 | 0.00 |     |     
+| 11.20 | 0.20 | 0.00 |     |          
+| 11.40 | 0.20 | 0.00 |     |        
+| 11.60 | 0.16 | 0.02 |     |        
+| 11.80 | 0.08 | 0.04 |     |
+| 12.00 | 0.04 | 0.08 |     |     
+| 12.20 | 0.02 | 0.16 |     |    
+| 12.40 | 0.00 | 0.20 |     |    
+| 12.60 | 0.00 | 0.20 |     |    
+| 12.80 | 0.00 | 0.16 |     |
+| 13.00 | 0.00 | 0.08 |     |         
+| 13.20 | 0.00 | 0.04 |     |       
+| 13.40 | 0.00 | 0.02 |     |     
+| 13.60 | 0.00 | 0.00 |     |     
+| 13.80 | 0.00 | 0.00 |     |
 "
 cat(tabl)
 ```
