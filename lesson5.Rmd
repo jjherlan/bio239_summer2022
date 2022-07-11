@@ -58,6 +58,21 @@ $s = \sqrt{s^{2}} = \sqrt{5} = 2.2$
 $SE = s / \sqrt{n} = 2.2 / \sqrt{5} = 1.0$
 </div>
 
+```{r table1 line 61, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|Replicate|0 mu S|3,000 mu S| 
+|:-:|:-:|:-:|
+| 1 | 88 | 32 |           
+| 2 | 90 | 37 |          
+| 3 | 91 | 41 |        
+| 4 | 92 | 45 |        
+| 5 | 94 | 50 |  
+| Mean | 91 | 41 | 
+| Variance | 5.0 | 48.5 | 
+"
+cat(tabl)
+```
+
 <div style = "margin-bottom:25px;">
 **In-class (group) Questions**
 </div>
