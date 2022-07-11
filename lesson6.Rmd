@@ -23,7 +23,7 @@ $N_{t} = N_{0}\lambda^{t}$
 </div>
 
 <div style = "margin-bottom:75px;">
-Version A: Population Growth in Rabbits
+**Version A: Population Growth in Rabbits**
 
 Suppose that a scientist collected data on the number of rabbits in a population each year. The data are provided in the table.
 </div>
@@ -50,9 +50,9 @@ Using these data, graph the number of individuals by year.
 </div>
 
 <div style = "margin-bottom:50px;">
-```{r bio239 line 43, echo = TRUE}
-t <- c ( 0, 1, 2, 3 )
-N <- c ( 2, 4, 8, 16 )
+```{r bio239 line 53, echo = TRUE}
+t <- c ( 0, 1, 2, 3, 4, 5 )
+N <- c ( 10, 20, 40, 80, 160, 320 )
 qplot( x = t, y = N, geom = c ( "line", "point" ) )
 ```
 </div>
@@ -77,8 +77,114 @@ Compare the population sizes you calculated at year 10. How is population growth
 Why is it more appropriate to use a geometric model of growth than an exponential model for these data?
 </div>
 
+<div style = "margin-bottom:75px;">
+**Version B: Population Growth in White-Tailed Deer**
 
+Suppose that a scientist collected data on the number of white-tailed deer in a population each year. The data are provided in the table.
+</div>
 
+<div style = "margin-bottom:50px;">
+```{r table2, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|Year|Population Size| 
+|:--:|:--:|
+| 1 | 10  |              
+| 2 | 17  |              
+| 3 | 29  |            
+| 4 | 49  |            
+| 5 | 84 |    
+| 6 | 142 | 
+"
+cat(tabl)
+```
+</div>
 
+<div style = "margin-bottom:50px;">
+**Question 1**
+Using these data, graph the number of individuals by year. 
+</div>
+
+<div style = "margin-bottom:50px;">
+```{r bio239 line 108, echo = TRUE}
+t <- c ( 0, 1, 2, 3, 4, 5 )
+N <- c ( 10, 17, 29, 49, 84, 142 )
+qplot( x = t, y = N, geom = c ( "line", "point" ) )
+```
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 2**
+From the data, calculate $\lambda$ with the equation $\lambda = N_{t}+1 / N_{t}$, where $N_{t}$ equals the population size at one time point and Nt+1 equals the population size one year later.
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 3**
+Predict the population size, $N_{10}$, at year 10 using the equation $N_{t}  = N_{0}/\lambda^{t}$, where $N_{0}$ is the population size at year 1 and *t* is year.
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 4**
+Compare the population sizes you calculated at year 10. How is population growth affected by $\lambda$?
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 5**
+Why is it more appropriate to use a geometric model of growth than an exponential model for these data?
+</div>
+
+<div style = "margin-bottom:75px;">
+**Version C: Population Growth in Black Bears**
+
+Suppose that a scientist collected data on the number of black bears in a population each year. The data are provided in the table.
+</div>
+
+<div style = "margin-bottom:50px;">
+```{r table3, echo = FALSE, message = FALSE, warnings = FALSE, results ='asis'}
+tabl <- "
+|Year|Population Size| 
+|:--:|:--:|
+| 1 | 10  |              
+| 2 | 13  |              
+| 3 | 17  |            
+| 4 | 22  |            
+| 5 | 29 |    
+| 6 | 37 | 
+"
+cat(tabl)
+```
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 1**
+Using these data, graph the number of individuals by year. 
+</div>
+
+<div style = "margin-bottom:50px;">
+```{r bio239 line 163, echo = TRUE}
+t <- c ( 0, 1, 2, 3, 4, 5 )
+N <- c ( 10, 13, 17, 22, 29, 37 )
+qplot( x = t, y = N, geom = c ( "line", "point" ) )
+```
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 2**
+From the data, calculate $\lambda$ with the equation $\lambda = N_{t}+1 / N_{t}$, where $N_{t}$ equals the population size at one time point and Nt+1 equals the population size one year later.
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 3**
+Predict the population size, $N_{10}$, at year 10 using the equation $N_{t}  = N_{0}/\lambda^{t}$, where $N_{0}$ is the population size at year 1 and *t* is year.
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 4**
+Compare the population sizes you calculated at year 10. How is population growth affected by $\lambda$?
+</div>
+
+<div style = "margin-bottom:50px;">
+**Question 5**
+Why is it more appropriate to use a geometric model of growth than an exponential model for these data?
+</div>
 
 

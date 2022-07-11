@@ -358,10 +358,158 @@ population each year. The data are provided in the table.</p>
 individuals by year.</p>
 </div>
 <div style="margin-bottom:50px;">
-<pre class="r"><code>t &lt;- c ( 0, 1, 2, 3 )
-N &lt;- c ( 2, 4, 8, 16 )
+<pre class="r"><code>t &lt;- c ( 0, 1, 2, 3, 4, 5 )
+N &lt;- c ( 10, 20, 40, 80, 160, 320 )
 qplot( x = t, y = N, geom = c ( &quot;line&quot;, &quot;point&quot; ) )</code></pre>
-<p><img src="lesson6_files/figure-html/bio239%20line%2043-1.png" width="672" /></p>
+<p><img src="lesson6_files/figure-html/bio239%20line%2053-1.png" width="672" /></p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 2</strong> From the data, calculate <span
+class="math inline">\(\lambda\)</span> with the equation <span
+class="math inline">\(\lambda = N_{t}+1 / N_{t}\)</span>, where <span
+class="math inline">\(N_{t}\)</span> equals the population size at one
+time point and Nt+1 equals the population size one year later.</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 3</strong> Predict the population size, <span
+class="math inline">\(N_{10}\)</span>, at year 10 using the equation
+<span class="math inline">\(N_{t} = N_{0}/\lambda^{t}\)</span>, where
+<span class="math inline">\(N_{0}\)</span> is the population size at
+year 1 and <em>t</em> is year.</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 4</strong> Compare the population sizes you
+calculated at year 10. How is population growth affected by <span
+class="math inline">\(\lambda\)</span>?</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 5</strong> Why is it more appropriate to use a
+geometric model of growth than an exponential model for these data?</p>
+</div>
+<div style="margin-bottom:75px;">
+<p>Version B: Population Growth in White-Tailed Deer</p>
+<p>Suppose that a scientist collected data on the number of white-tailed
+deer in a population each year. The data are provided in the table.</p>
+</div>
+<div style="margin-bottom:50px;">
+<table>
+<thead>
+<tr class="header">
+<th align="center">Year</th>
+<th align="center">Population Size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">10</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">17</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">29</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">49</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="center">84</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="center">142</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 1</strong> Using these data, graph the number of
+individuals by year.</p>
+</div>
+<div style="margin-bottom:50px;">
+<pre class="r"><code>t &lt;- c ( 0, 1, 2, 3, 4, 5 )
+N &lt;- c ( 10, 17, 29, 49, 84, 142 )
+qplot( x = t, y = N, geom = c ( &quot;line&quot;, &quot;point&quot; ) )</code></pre>
+<p><img src="lesson6_files/figure-html/bio239%20line%20108-1.png" width="672" /></p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 2</strong> From the data, calculate <span
+class="math inline">\(\lambda\)</span> with the equation <span
+class="math inline">\(\lambda = N_{t}+1 / N_{t}\)</span>, where <span
+class="math inline">\(N_{t}\)</span> equals the population size at one
+time point and Nt+1 equals the population size one year later.</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 3</strong> Predict the population size, <span
+class="math inline">\(N_{10}\)</span>, at year 10 using the equation
+<span class="math inline">\(N_{t} = N_{0}/\lambda^{t}\)</span>, where
+<span class="math inline">\(N_{0}\)</span> is the population size at
+year 1 and <em>t</em> is year.</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 4</strong> Compare the population sizes you
+calculated at year 10. How is population growth affected by <span
+class="math inline">\(\lambda\)</span>?</p>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 5</strong> Why is it more appropriate to use a
+geometric model of growth than an exponential model for these data?</p>
+</div>
+<div style="margin-bottom:75px;">
+<p>Version C: Population Growth in Black Bears</p>
+<p>Suppose that a scientist collected data on the number of black bears
+in a population each year. The data are provided in the table.</p>
+</div>
+<div style="margin-bottom:50px;">
+<table>
+<thead>
+<tr class="header">
+<th align="center">Year</th>
+<th align="center">Population Size</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">1</td>
+<td align="center">10</td>
+</tr>
+<tr class="even">
+<td align="center">2</td>
+<td align="center">13</td>
+</tr>
+<tr class="odd">
+<td align="center">3</td>
+<td align="center">17</td>
+</tr>
+<tr class="even">
+<td align="center">4</td>
+<td align="center">22</td>
+</tr>
+<tr class="odd">
+<td align="center">5</td>
+<td align="center">29</td>
+</tr>
+<tr class="even">
+<td align="center">6</td>
+<td align="center">37</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div style="margin-bottom:50px;">
+<p><strong>Question 1</strong> Using these data, graph the number of
+individuals by year.</p>
+</div>
+<div style="margin-bottom:50px;">
+<pre class="r"><code>t &lt;- c ( 0, 1, 2, 3, 4, 5 )
+N &lt;- c ( 10, 13, 17, 22, 29, 37 )
+qplot( x = t, y = N, geom = c ( &quot;line&quot;, &quot;point&quot; ) )</code></pre>
+<p><img src="lesson6_files/figure-html/bio239%20line%20163-1.png" width="672" /></p>
 </div>
 <div style="margin-bottom:50px;">
 <p><strong>Question 2</strong> From the data, calculate <span
