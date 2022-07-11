@@ -12,10 +12,20 @@ require(knitr)
 
 <div style = "margin-bottom:75px;">
 
+Different models of population growth account for different modes of reproduction. Species that reproduce continuously throughout a given period of time, such as humans, can grow **exponentially**. The **exponential growth model** calculates the population size at a given time ($N_{t}$) by multiplying the starting population size ($N_{0}$) by an exponential term. This model raises $e$, the base of the natural log, by the product of the growth rate ($r$) and the interval of time ($t$).
+
+$N_{t} = N_{0}e^{rt}$
+
+For species that reproduce at **discrete times** during the year, such as birds that lay eggs in spring, the **geometric growth model** describes changes in population size at regular intervals. Population growth in these species is measured by comparing the population size at a certain time of year to the population size at the same time the preceding year. The **geometric growth model** specifies this ratio using the Greek symbol lambda, $\lambda$.
+
+$N_{t} = N_{0}\lambda^{t}$
+
+</div>
+
+<div style = "margin-bottom:75px;">
 Version A: Population Growth in Rabbits
 
 Suppose that a scientist collected data on the number of rabbits in a population each year. The data are provided in the table.
-
 </div>
 
 <div style = "margin-bottom:50px;">
@@ -35,16 +45,16 @@ cat(tabl)
 </div>
 
 <div style = "margin-bottom:50px;">
+**Question 1**
+Using these data, graph the number of individuals by year. 
+</div>
+
+<div style = "margin-bottom:50px;">
 ```{r bio239 line 43, echo = TRUE}
 t <- c ( 0, 1, 2, 3 )
 N <- c ( 2, 4, 8, 16 )
 qplot( x = t, y = N, geom = c ( "line", "point" ) )
 ```
-</div>
-
-<div style = "margin-bottom:50px;">
-**Question 1**
-Using these data, graph the number of individuals by year. 
 </div>
 
 <div style = "margin-bottom:50px;">

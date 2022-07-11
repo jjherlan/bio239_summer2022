@@ -290,6 +290,29 @@ $(document).ready(function () {
 
 </div>
 <div style="margin-bottom:75px;">
+<p>Different models of population growth account for different modes of
+reproduction. Species that reproduce continuously throughout a given
+period of time, such as humans, can grow <strong>exponentially</strong>.
+The <strong>exponential growth model</strong> calculates the population
+size at a given time (<span class="math inline">\(N_{t}\)</span>) by
+multiplying the starting population size (<span
+class="math inline">\(N_{0}\)</span>) by an exponential term. This model
+raises <span class="math inline">\(e\)</span>, the base of the natural
+log, by the product of the growth rate (<span
+class="math inline">\(r\)</span>) and the interval of time (<span
+class="math inline">\(t\)</span>).</p>
+<p><span class="math inline">\(N_{t} = N_{0}e^{rt}\)</span></p>
+<p>For species that reproduce at <strong>discrete times</strong> during
+the year, such as birds that lay eggs in spring, the <strong>geometric
+growth model</strong> describes changes in population size at regular
+intervals. Population growth in these species is measured by comparing
+the population size at a certain time of year to the population size at
+the same time the preceding year. The <strong>geometric growth
+model</strong> specifies this ratio using the Greek symbol lambda, <span
+class="math inline">\(\lambda\)</span>.</p>
+<p><span class="math inline">\(N_{t} = N_{0}\lambda^{t}\)</span></p>
+</div>
+<div style="margin-bottom:75px;">
 <p>Version A: Population Growth in Rabbits</p>
 <p>Suppose that a scientist collected data on the number of rabbits in a
 population each year. The data are provided in the table.</p>
@@ -331,14 +354,14 @@ population each year. The data are provided in the table.</p>
 </table>
 </div>
 <div style="margin-bottom:50px;">
+<p><strong>Question 1</strong> Using these data, graph the number of
+individuals by year.</p>
+</div>
+<div style="margin-bottom:50px;">
 <pre class="r"><code>t &lt;- c ( 0, 1, 2, 3 )
 N &lt;- c ( 2, 4, 8, 16 )
 qplot( x = t, y = N, geom = c ( &quot;line&quot;, &quot;point&quot; ) )</code></pre>
 <p><img src="lesson6_files/figure-html/bio239%20line%2043-1.png" width="672" /></p>
-</div>
-<div style="margin-bottom:50px;">
-<p><strong>Question 1</strong> Using these data, graph the number of
-individuals by year.</p>
 </div>
 <div style="margin-bottom:50px;">
 <p><strong>Question 2</strong> From the data, calculate <span
